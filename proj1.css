@@ -1,0 +1,79 @@
+body {
+	background-color: #89b6ff;	
+}
+
+h1 {
+	font-family: verdana;
+	text-align: center;
+}
+
+
+input{
+	font-family: verdana;
+	font-size: 20px;
+	background-color: #f7f779;
+}
+
+p {
+	text-align: center;
+	font-family: verdana;
+    	font-size: 20px;
+}
+
+button {
+	font-family: verdana;
+    	font-size: 20px;
+	padding: 4px;
+	border-radius: 12px;
+	background-color: #54e55e;
+	border: 2px solid black;
+	outline: none;
+}
+
+td {
+	vertical-align: top;
+}
+
+table {
+	margin: 0 auto;
+}
+
+thead {
+	background-color: #54e55e;
+}
+
+#timeBar {
+	width: 100%;
+	background-color: #d3133c;
+}
+
+#timer {
+   	width: 0%;
+    	height: 30px;
+    	background-color: #6f6b77;
+}
+
+#time {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#dataTable {
+	border: 1px solid black;
+}
+
+table.dataT {
+	background-color: #daebed;
+}
+
+tr.dataRow {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.dataCell {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}

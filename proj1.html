@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  
+
+<title> Clock Game </title>
+<link rel="stylesheet" type="text/css" href="proj1.css">
+<script type="text/javascript" src="proj1.js"></script>
+</head>
+<body>
+<h1>The Clock Game</h1>
+<p id="gameStartP">Enter Name: 
+<input id="name" type="text"></input>
+<button id="start" onclick="startGame()">Start Game</button>
+</p>
+<p id="result" hidden></p>
+<table id="dataTable" hidden></table>
+<p id="backButton" hidden>
+<button type="button" onclick="backToGame()">Back</button>
+</p>
+<table id="gameTable" hidden>
+<tr>
+<td>
+<p>Clock A</p>
+<canvas id="clock0" width="425" height="425"></canvas>
+</td>
+<td>
+<p>Clock B</p>
+<canvas id="clock1" width="425" height="425"></canvas>
+</td>
+<td>
+<p>Clock C</p>
+<canvas id="clock2" width="425" height="425"></canvas>
+</td>
+<tr>
+<td>
+<p id="timeAlert">Time Left</p>
+<div id="timeBar">
+<div id="timer"</div>
+</div>
+</td>
+<td>
+<p>Which clock shows the time?</p>
+<p id="time"></p>
+<p><button type="button" id="buttonA" onclick="evaluateResponse(0)">Clock A</button> 
+<button type="button" id="buttonB" onclick="evaluateResponse(1)">Clock B</button> 
+<button type="button" id="buttonC" onclick="evaluateResponse(2)">Clock C</button>
+</p>
+</td>
+<td>
+<p>Points:</p>
+<p id="points">0</p>
+<p id="feedback"></p>
+</td>
+</tr>
+</table>
+</body>
+</html>
